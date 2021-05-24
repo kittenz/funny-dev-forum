@@ -1,0 +1,26 @@
+$topicListBorderSize: 3px;
+$topicListPadding: 20px;
+
+.topicList {
+	thead {
+		th {
+			padding-left: $topicListPadding;
+			padding-right: $topicListPadding;
+		}
+	}
+	tbody {
+		tr {
+			border-top: $topicListBorderSize solid gray;
+			border-bottom: $topicListBorderSize solid gray;
+
+			td {
+				padding-left: $topicListPadding;
+				padding-right: $topicListPadding;
+
+				a {
+					font-size: 29px;
+				}
+			}
+		}
+	}
+}
