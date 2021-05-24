@@ -1,7 +1,10 @@
 $topicListBorderSize: 3px;
-$topicListPadding: 20px;
+$topicListPadding: 40px;
 
 .topicList {
+	margin-top: 3rem;
+	width: clamp(400px, 100%, 1200px);
+
 	thead {
 		th {
 			padding-left: $topicListPadding;
@@ -12,15 +15,20 @@ $topicListPadding: 20px;
 		tr {
 			border-top: $topicListBorderSize solid gray;
 			border-bottom: $topicListBorderSize solid gray;
-
+	
 			td {
 				padding-left: $topicListPadding;
 				padding-right: $topicListPadding;
-
+	
 				a {
 					font-size: 29px;
+					color: var(--text-color);
 				}
 			}
 		}
 	}
+}
+
+.trDevelopmentDiscussion {
+	border-left: 6px solid #7D26CD;
 }

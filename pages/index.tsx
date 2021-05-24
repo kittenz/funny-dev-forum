@@ -22,20 +22,21 @@ function HomePage() {
 							<b>Topic name</b>
 						</th>
 						<th>
-							<b>Category</b>
-						</th>
-						<th>
 							<b>Date</b>
 						</th>
 					</thead>
 					<tbody>
 						<tr>
-							<td>
+							<td className={styles.trDevelopmentDiscussion}>
 								<a>Anniversary Bobux</a>
 							</td>
 							<td>
-								<span className='icon-category-dd' />
-								<p>Development Discussion</p>
+								<p>May 24, 2021</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a>Anniversary Bobux</a>
 							</td>
 							<td>
 								<p>May 24, 2021</p>
